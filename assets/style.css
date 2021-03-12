@@ -1,0 +1,199 @@
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main {
+    background-color: #fff;
+    margin-bottom: 50px;
+    height: 100vh;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 650px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
+  nav {
+    margin: 0;
+    overflow: hidden;
+    padding: 25px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li:first-child {
+    margin-right: auto;
+  }
+  
+  nav ul li a .avatarImg {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+  }
+  
+  .link {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    /* font-weight: 700; */
+  }
+  
+  .link:hover {
+    /* color: #000; */
+    color: #0095FF;
+    /* font-weight: 700; */
+  }
+  
+  .top {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .top h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .top h3 {
+    font-size: 15px;
+  }
+  
+  @media (min-width: 475px) {
+    .top h3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .top h1 {
+      font-size: 70px;
+    }
+  
+    .top h3 {
+      font-size: 30px;
+    }
+  }
+  
+  .experiences h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .experiences h2 {
+      font-size: 50px;
+    }
+  }
+  
+  .list-container {
+    margin-bottom: 150px;
+  }
+  
+  .list-content {
+    margin-top: 24px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-content li {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .list-item-image {
+    float: left;
+    margin-right: 20px;
+    width: 60px;
+  }
+  
+  .list-item-image img {
+    vertical-align: center;
+    height: 50px;
+  }
+  
+  .list-item-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .list-item-text p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-item-text a {
+    /* color: #0095FF; */
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .list-item-text a:hover {
+    color: #0095FF;
+  }
+  
+  .project-description {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  .list-item-text-mini {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  
+  .footer {
+    border-top: 1px solid #515151;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #515151;
+    font-size: 16px;
+  }
+  
+  .copyright {
+    padding: 25px 0 ;
+    margin-right: auto;
+  }
+  
+  .copyright p {
+    margin: 0;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #515151;
+  }
+  
+  .social-icons a:hover {
+    color: #0095FF;
+  }
+  
